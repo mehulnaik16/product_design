@@ -1,0 +1,191 @@
+$color_1: #fff;
+$color_2: #9e9898;
+$color_3: #8f8f8f;
+$color_4: white;
+$color_5: black;
+$font-family_1: 'montserrat',sans-serif;
+$font-family_2: 'montserrat-Bold',sans-serif;
+$font-family_3: 'montserrat-Black',sans-serif;
+$font-family_4: 'Ubuntu', sans-serif;
+$font-family_5: 'montserrat-light',sans-serif;
+$background-color_1: #000000;
+$background-color_2: #ffffff;
+$background-color_3: white;
+
+body {
+	font-family: $font-family_1;
+	margin-bottom: -10%;
+}
+#title {
+	background-color: $background-color_1;
+	color: $color_1;
+}
+h1 {
+	font-family: $font-family_2;
+}
+h2 {
+	font-family: $font-family_2;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+h3 {
+	font-family: $font-family_2;
+	font-size: 2rem;
+}
+h4 {
+	font-family: $font-family_2;
+}
+h5 {
+	font-family: $font-family_2;
+}
+h6 {
+	font-family: $font-family_2;
+}
+#textElement {
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+.big-heading {
+	font-family: $font-family_3;
+	line-height: 2;
+	font-size: 3.5rem;
+	font-weight: 900;
+}
+.container-fluid {
+	padding: 3% 15% 7%;
+}
+.navbar-brand {
+	font-family: $font-family_4;
+	font-size: 2.5rem;
+}
+.navbar {
+	padding: 0 0 4.5rem;
+}
+.nav-item {
+	padding: 0 20px;
+}
+.nav-link {
+	font-size: 1.2rem;
+	font-family: $font-family_5;
+}
+.download-btn {
+	margin: 5% 3% 5% 0;
+}
+.titleimg {
+	width: 36%;
+	position: absolute;
+	right: 8%;
+	top: 40%;
+	border-radius: 10%;
+}
+.ftimg {
+	color: $color_2;
+	margin-bottom: 1rem;
+}
+.fp {
+	color: $color_3;
+	text-align: center;
+}
+#features {
+	padding: 7% 15%;
+	background-color: $background-color_2;
+	position: relative;
+}
+.ftbox {
+	text-align: center;
+	padding: 1%;
+}
+#testimonials {
+	text-align: center;
+	background-color: $background-color_1;
+	color: $color_1;
+}
+.testimg {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+#press {
+	text-align: center;
+	padding: 3%;
+}
+.presslogo {
+	width: 20%;
+	margin: 20px 20px 50px;
+}
+.carousel-item {
+	padding: 7% 15%;
+}
+#pricing {
+	background-color: $background-color_1;
+	padding: 100px;
+	text-align: center;
+	color: $color_4;
+}
+p {
+	color: $color_3;
+}
+.pcol {
+	padding: 3% 2%;
+	color: $color_4;
+}
+.fe_img {
+	height: 60%;
+	width: 30%;
+	padding-bottom: 10px;
+}
+.fe_cam {
+	height: 50%;
+}
+#cta {
+	background-color: $background-color_3;
+	font-family: $font-family_3;
+	color: $color_5;
+	text-align: center;
+	padding-bottom: 2px;
+}
+.cta {
+	font-size: 3.5rem;
+	line-height: 1;
+	padding: 7% 15%;
+	text-align: center;
+}
+#footer {
+	background-color: $background-color_1;
+	text-align: center;
+	padding: 1%;
+}
+.ctt {
+	padding-bottom: 2px;
+}
+.fot {
+	padding: 1.2%;
+}
+@media max-width:1028px) {
+	.titleimg {
+		position: static;
+		padding-top: 10%;
+		border-radius: 10%;
+	}
+	#title {
+		text-align: center;
+	}
+	.presslogo {
+		width: 40%;
+		margin: 20px 20px 50px;
+	}
+	.h2smdev {
+		font-size: 40px;
+	}
+	.cost {
+		font-size: x-large;
+	}
+	.fe_img {
+		height: 60%;
+		width: 60%;
+		padding-top: 150px;
+	}
+	.fe_cam {
+		height: 35%;
+	}
+}
